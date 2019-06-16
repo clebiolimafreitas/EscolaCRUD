@@ -111,26 +111,42 @@ Public Class Form1
     Private Sub BtnRelatorio_Click(sender As Object, e As EventArgs) Handles btnRelatorio.Click
         Try
             Dim Renderer As IronPdf.HtmlToPdf = New IronPdf.HtmlToPdf()
-            'Dim linha As DataGridViewRow = New DataGridViewRow()
             Dim html As String = ""
             'Cabeçalho
             html = "<table>"
-            html += "<tr><td>Nome</td><td>Endereço</td><td>Cidade</td><td>UF</td><td>Ativo</td></tr>"
+            html += "   <tr>"
+            html += "       <td colspan='5'><b>Relatório de Alunos</b></td>"
+            html += "   </tr>"
+            html += "   <tr>"
+            html += "       <td colspan='5'></td>"
+            html += "   </tr>"
+            html += "   <tr>"
+            html += "       <td><b>Nome</b></td>"
+            html += "       <td><b>Endereço</b></td>"
+            html += "       <td><b>Cidade</b></td>"
+            html += "       <td><b>UF</b></td>"
+            html += "       <td><b>Ativo</b></td>"
+            html += "   </tr>"
 
             For Each linha As DataGridViewRow In grvAlunos.Rows
-                html += "<tr>"
+
+                html += "<tr " + IIf(linha.Index Mod 2 = 0, "bgcolor='gray'", "") + ">"
                 html += "   <td>" + linha.Cells(1).Value + "</td>"
                 html += "   <td>" + linha.Cells(2).Value + "</td>"
                 html += "   <td>" + linha.Cells(3).Value + "</td>"
                 html += "   <td>" + linha.Cells(4).Value + "</td>"
-                html += "   <td>" + IIf(linha.Cells(5).Value, "SIM", "NÃO") + "</td>"
+                html += "   <td>" + IIf(linha.Cells(5).Value, "Sim", "Não") + "</td>"
                 html += "</tr>"
             Next
 
             html += "</table>"
             Dim doc = Renderer.RenderHtmlAsPdf(html)
             Dim caminho As String
-            fbd1.Description = "Selecione uma pasta para realizar o Backup"
+            Dim datetime As String
+            Dim name As String
+            Dim caminhocompleto As String
+
+            fbd1.Description = "Selecione uma pasta"
             fbd1.RootFolder = Environment.SpecialFolder.MyComputer
             fbd1.ShowNewFolderButton = True
 
@@ -138,8 +154,11 @@ Public Class Form1
             If fbd1.ShowDialog = Windows.Forms.DialogResult.OK Then
                 'Exibe a pasta selecionada
                 caminho = fbd1.SelectedPath
-                doc.SaveAs(caminho + "\aluno.pdf")
-                Process.Start(caminho + "\aluno.pdf")
+                datetime = Replace(Replace(Now.ToString("s"), "-", ""), ":", "")
+                name = "aluno.pdf"
+                caminhocompleto = caminho + datetime + name
+                doc.SaveAs(caminhocompleto)
+                Process.Start(caminhocompleto)
             End If
 
         Catch ex As Exception

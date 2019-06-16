@@ -27,3 +27,6 @@ C:\Users\clebi\OneDrive\Documentos\AlunoCRUD\UnitTestAlunoCRUD\bin\Debug\AlunoCR
 C:\Users\clebi\OneDrive\Documentos\AlunoCRUD\UnitTestAlunoCRUD\bin\Debug\AlunoCRUD.exe.config
 C:\Users\clebi\OneDrive\Documentos\AlunoCRUD\UnitTestAlunoCRUD\bin\Debug\IronPdf.xml
 C:\Users\clebi\OneDrive\Documentos\AlunoCRUD\UnitTestAlunoCRUD\bin\Debug\Dapper.xml
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\UnitTestAlunoCRUD\obj\Debug\UnitTestAlunoCRUD.dll
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\UnitTestAlunoCRUD\obj\Debug\UnitTestAlunoCRUD.xml
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\UnitTestAlunoCRUD\obj\Debug\UnitTestAlunoCRUD.pdb

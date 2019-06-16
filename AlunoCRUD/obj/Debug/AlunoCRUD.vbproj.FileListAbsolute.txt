@@ -36,3 +36,20 @@ C:\Users\clebi\OneDrive\Documentos\AlunoCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.xml
 C:\Users\clebi\OneDrive\Documentos\AlunoCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.pdb
 C:\Users\clebi\OneDrive\Documentos\AlunoCRUD\AlunoCRUD\bin\Debug\IronPdf.dll
 C:\Users\clebi\OneDrive\Documentos\AlunoCRUD\AlunoCRUD\bin\Debug\IronPdf.xml
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\bin\Debug\AlunoCRUD.exe.config
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\bin\Debug\AlunoCRUD.exe
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\bin\Debug\AlunoCRUD.pdb
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\bin\Debug\AlunoCRUD.xml
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\bin\Debug\Dapper.dll
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\bin\Debug\IronPdf.dll
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\bin\Debug\Dapper.xml
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\bin\Debug\IronPdf.xml
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.vbprojAssemblyReference.cache
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.Form1.resources
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.Resources.resources
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.vbproj.GenerateResource.cache
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.vbproj.CoreCompileInputs.cache
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.vbproj.CopyComplete
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.exe
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.xml
+C:\Users\clebi\OneDrive\Área de Trabalho\EscolaCRUD\AlunoCRUD\obj\Debug\AlunoCRUD.pdb
